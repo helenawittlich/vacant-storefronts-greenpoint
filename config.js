@@ -69,23 +69,14 @@ var config = {
                 opacity: 1,
                 duration: 2000
                 }, 
-                {
-                layer: '730MA',
-                opacity: 1,
-                duration: 2000
-                }, 
                 { 
                 layer: 'all-buildings',             
                 opacity: 1,
                 duration: 1000
-                }, 
+                }
             ],
             onChapterExit: [
-                {
-                layer: '730MA',
-                opacity: 0,
-                duration: 1000
-                }, 
+
             ]
         },
         {
@@ -119,12 +110,12 @@ var config = {
                 layer: 'all-buildings',             
                 opacity: 1,
                 duration: 1000
-                }, 
-                { 
-                layer: 'all-buildings',             
+                },             
+                {
+                layer: 'home',
                 opacity: 1,
-                duration: 1000
-                }, 
+                duration: 2000
+                }
             ],
             onChapterExit: [
                 {
@@ -137,8 +128,8 @@ var config = {
                 duration: 1000
                 },
                 {
-                     layer: 'home',
-                     opacity: 0
+                layer: 'home',
+                opacity: 0
                 }
             ]
         },
