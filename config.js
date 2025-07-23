@@ -299,6 +299,21 @@ var config = {
                 layer: 'bubbles',
                 opacity: 1,
                 duration: 1000
+                }, 
+                { 
+                layer: 'all-buildings',             
+                opacity: 0,
+                duration: 1000
+                }, 
+                { 
+                layer: 'stores',             
+                opacity: 0,
+                duration: 1000
+                }, 
+                {
+                layer: 'unoccupied',           
+                opacity: 0,
+                duration: 1000
                 }
             ],
             onChapterExit: [
