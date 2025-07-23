@@ -171,10 +171,16 @@ var config = {
                 }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                { 
+                layer: 'all-buildings',             
+                opacity: 1,
+                duration: 1000
+                }, 
+                {
+                layer: 'stores',           
+                opacity: 1,
+                duration: 1000
+                }
             ]
         },
         {
