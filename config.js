@@ -203,17 +203,17 @@ var config = {
                 { 
                 layer: 'all-buildings',             
                 opacity: 1,
-                duration: 2000
+                duration: 1000
                 }, 
                 { 
                 layer: 'stores',             
                 opacity: 1,
-                duration: 2000
+                duration: 1000
                 }, 
                 {
                 layer: 'unoccupied',           
                 opacity: 1,
-                duration: 2000
+                duration: 1000
                 }
             ],
             onChapterExit: [
