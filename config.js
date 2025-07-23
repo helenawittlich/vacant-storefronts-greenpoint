@@ -314,7 +314,17 @@ var config = {
                 layer: 'unoccupied',           
                 opacity: 0,
                 duration: 1000
-                }
+                }, 
+                {
+                layer: 'home',           
+                opacity: 0,
+                duration: 1000
+                },
+                {
+                layer: 'polka-dot',           
+                opacity: 0,
+                duration: 1000
+                },
             ],
             onChapterExit: [
                 {
